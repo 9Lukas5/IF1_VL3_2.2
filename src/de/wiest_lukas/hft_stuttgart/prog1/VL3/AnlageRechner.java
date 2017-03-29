@@ -12,4 +12,8 @@ public class AnlageRechner
         
     }
 
+    public static double calculateInterest(double fund, double rate)
+    {
+        
+    }
 }
