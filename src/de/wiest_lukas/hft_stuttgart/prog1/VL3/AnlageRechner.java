@@ -9,7 +9,7 @@ public class AnlageRechner
 
     public static void main(String[] args)
     {
-        
+        System.out.println(calculateInterest(1000, 5));
     }
 
     public static double calculateInterest(double fund, double rate)
