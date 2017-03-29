@@ -41,6 +41,18 @@ public class AnlageRechner
                 break getFund;
             }
         } while (true);
+
+        System.out.print("fund: ");
+        System.out.printf("%.2f", fund / (double) 100);
+        System.out.println(" EUR");
+
+        for (int i=0; i < LAUFZEIT; i++)
+        {
+            fund = calculateInterest(fund, ZINSSAETZE[i]);
+            System.out.print("Year " + (i + 1) + ": ");
+            System.out.printf("%.2f", fund / (double) 100);
+            System.out.println(" EUR");
+        }
     }
 
     public static double calculateInterest(double fund, double rate)
