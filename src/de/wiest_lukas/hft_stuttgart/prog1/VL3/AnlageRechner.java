@@ -14,6 +14,7 @@ public class AnlageRechner
 
     public static double calculateInterest(double fund, double rate)
     {
-        
+        fund += fund * rate / (double) 100;
+        return fund;
     }
 }
