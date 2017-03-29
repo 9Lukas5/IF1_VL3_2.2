@@ -1,3 +1,6 @@
+// Copyright © 2017 Lukas Wiest
+// Version: 1.0.0
+
 package de.wiest_lukas.hft_stuttgart.prog1.VL3;
 
 import java.util.Scanner;
